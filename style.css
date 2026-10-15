@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#main{
+    display: flex;
+}
+
+#sidebar{
+    width: 20%;
+    height: 100vh;
+}
+#sidebar>img{
+    margin-top: 40px;
+    padding-left: 24px;
+    margin-bottom:  30px;
+}
+#sidebar>ul{
+    list-style-type: none;;
+}
+#sidebar>ul>li{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    font-family: 'Roboto', sans-serif;
+}
+#sidebar>ul>li>img{
+    padding-right: 16px;
+}
+
+#main-scrollable-container{
+    
+    height: 100vh;
+    width: 80%;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+#story{
+    width: 75px;
+    height: 75px;
+    border: 3px solid transparent;
+ background: linear-gradient(white, white) padding-box,
+                linear-gradient(135deg, #ed9715, #f710b9, #00d4ff) border-box;
+    border-radius: 50%;
+   margin: 20px;
+}
+
+#story-img>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 2px;
+}
+
+#story-section{
+    display: flex;
+    width: 60%;
+    background-color: white;
+    gap: 10px;
+    margin:40px 0px 0px 50px;
+    justify-content: space-between;
+}
+footer{
+    width:500px;
+    margin: 10px 50px 10px 0px;
+    padding: 20px;
+    
+}
+#user-profile{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   margin-top: 50px;
+}
+#user-profile-left{
+    display: flex;
+    align-items: center;
+   
+}
+#user-profile-left>img{
+  width: 50px;
+    height: 50px;
+   
+}
+#user-profile-left-main{
+    display: flex;
+    align-items: center;
+   
+}
+#user-profile-left-main>img{
+  width: 70px;
+    height: 70px;
+   
+}
+#user-text{
+    padding-left: 10px;
+}
+#light{
+    color: gray;
+}
+
+#main-text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+#user-profile-suggestions {
+    margin-top: 20px;
+}
+
+.suggestion {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+#footer-links>ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 30px;
+    font-size: 12px;
+    color: gray;
+    padding-left: 0;
+    
+}
+#copyright>p{
+    margin-top: 20px;
+    font-size: 12px;
+    color: gray;
+    margin-left: 0px;
+}
+
+#story-2 {
+    width: 55px;
+    height: 55px;
+    border: 3px solid transparent;
+    background: linear-gradient(white, white) padding-box,
+                linear-gradient(135deg, #ed9715, #f710b9, #00d4ff) border-box;
+    border-radius: 50%;
+    margin: 0;
+    flex-shrink: 0;
+}
+
+#story-img2>img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    padding: 2px;
+  
+}
+
+#story-img2{
+    display: flex;
+    align-items: center;
+}
+#story-text{
+   margin: 0px 50px 0px 10px;
+align-items: center;
+    display: flex;
+    padding: 5px;
+    font-weight: bold;
+}
+
+#main-post{
+    width: 650px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 30px 0px 100px;
+}
+#tick-img{
+    margin-left:10px ;
+   
+}
+#tick-img>img{
+     width: 15px;
+    height: 15px;
+}
+#hrs{
+    margin-left: 25px;
+}
+#dots>img{
+    margin-right: 30px;
+    align-items: center;
+    width: 40px;
+}
+.post{
+    margin-top: 20px;
+}
+.post>img{
+    width:650px;
+}
+
+
+.posts{
+    display: flex;
+    flex-direction: column;
+}
+
+.like {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 650px;
+    padding: 5px;
+}
+
+.like-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.like img{
+    padding: 5px;
+}
+#save {
+    display: flex;
+    align-items: center;
+}
+
+.post-text {
+    width: 100%;
+}
+
+.post-text>p {
+    width: 650px;
+    white-space: normal;
+    overflow-wrap: normal;
+    word-break: normal;
+    margin-top:10px ;
+}
+
+.comment{
+    display: flex;
+    width: 650px;
+    justify-content: space-between;
+    margin-top:10px ;
+    border-bottom:2px solid black ;
+   
+}
+
